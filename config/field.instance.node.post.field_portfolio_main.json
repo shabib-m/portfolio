@@ -1,0 +1,31 @@
+{
+    "_config_name": "field.instance.node.post.field_portfolio_main",
+    "field_name": "field_portfolio_main",
+    "entity_type": "node",
+    "bundle": "post",
+    "label": "Main Categories",
+    "widget": {
+        "weight": "8",
+        "type": "options_select",
+        "module": "options",
+        "active": 1,
+        "settings": []
+    },
+    "description": "",
+    "required": 0,
+    "deleted": 0,
+    "default_value": null,
+    "default_value_function": null,
+    "settings": {
+        "user_register_form": false
+    },
+    "display": {
+        "default": {
+            "label": "hidden",
+            "type": "taxonomy_term_reference_link",
+            "settings": [],
+            "module": "taxonomy",
+            "weight": 7
+        }
+    }
+}

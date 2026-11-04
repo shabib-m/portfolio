@@ -1,0 +1,175 @@
+{
+  "description": "Default content for the Portfolio Backdrop theme. This is a custom data file, not a Backdrop CMI configuration export.",
+  "vocabulary": "portfolio_main",
+  "taxonomy_terms": {
+    "field_portfolio_main": {
+      "projects": "Projects",
+      "articles": "Articles"
+    }
+  },
+  "content": [
+    {
+      "type": "post",
+      "title": "Website Design and Development",
+      "body": {
+        "value": "I design and develop responsive websites that balance usability, performance, and visual clarity. Each project starts with understanding its goals and turns those requirements into an intuitive, well-structured experience.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "Projects",
+      "field_block_home": 0,
+      "field_block_project": 1,
+      "field_block_article": 0,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "project/web-development"
+    },
+    {
+      "type": "post",
+      "title": "Portfolio Theme Development",
+      "body": {
+        "value": "Portfolio is a lightweight theme built for Backdrop CMS. It provides a practical starting point for personal websites that showcase projects, skills, and articles, with an emphasis on simplicity and easy customization.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "Projects",
+      "field_block_home": 0,
+      "field_block_project": 1,
+      "field_block_article": 0,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "project/portfolio-theme"
+    },
+    {
+      "type": "post",
+      "title": "Creative Design Projects",
+      "body": {
+        "value": "A collection of visual design work, including interface layouts, graphic elements, and brand identity concepts. Each project highlights the idea, the design process, and the final result.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "Projects",
+      "field_block_home": 0,
+      "field_block_project": 1,
+      "field_block_article": 0,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "project/creative-design"
+    },
+    {
+      "type": "post",
+      "title": "Personal Introduction",
+      "body": {
+        "value": "I am a web developer and designer who enjoys building useful websites and digital experiences. I believe great websites combine meaningful content, clear design, and the right technology.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "",
+      "status": 0,
+      "field_block_home": 1,
+      "field_block_project": 0,
+      "field_block_article": 0,
+      "field_image": {
+        "file": "avatar.png"
+      },
+      "path": "profile"
+    },
+    {
+      "type": "post",
+      "title": "Skills and Experience",
+      "body": {
+        "value": "My work includes building websites with content management systems, developing themes, organizing content, improving user experience, and keeping projects fast and easy to maintain.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "",
+      "field_block_home": 0,
+      "field_block_project": 0,
+      "field_block_article": 0,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "skills"
+    },
+    {
+      "type": "post",
+      "title": "Choosing the Right Content Management System",
+      "body": {
+        "value": "Choosing a content management system is not just about popularity. Consider the needs of your website, ease of management, running costs, and room for future growth. Good planning helps you select useful tools without unnecessary complexity.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "Articles",
+      "field_block_home": 0,
+      "field_block_project": 0,
+      "field_block_article": 1,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "article/cms-selection"
+    },
+    {
+      "type": "post",
+      "title": "Why Performance and User Experience Matter",
+      "body": {
+        "value": "Fast page loading, clear navigation, and readable content are essential to a good user experience. Improvements start with a sound structure, organized content, and thoughtful use of images and other resources.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "Articles",
+      "field_block_home": 0,
+      "field_block_project": 0,
+      "field_block_article": 1,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "article/performance-ux"
+    },
+    {
+      "type": "post",
+      "title": "Building Accessible Websites",
+      "body": {
+        "value": "Accessible websites help more people navigate, read, and interact with content. Semantic HTML, keyboard-friendly controls, descriptive links, and sufficient color contrast make the experience better for everyone.",
+        "format": "filtered_html"
+      },
+      "field_portfolio_main": "Articles",
+      "field_block_home": 0,
+      "field_block_project": 0,
+      "field_block_article": 1,
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "article/web-accessibility"
+    },
+    {
+      "type": "page",
+      "title": "About Me",
+      "body": {
+        "value": "This page introduces the website owner, their professional background, interests, and the experience they would like to share with visitors.",
+        "format": "filtered_html"
+      },
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "about-me"
+    },
+    {
+      "type": "page",
+      "title": "Contact Me",
+      "body": {
+        "value": "I would be happy to discuss projects, ideas, and opportunities to collaborate. Use the contact and social links on this website to get in touch.",
+        "format": "filtered_html"
+      },
+      "field_image": {
+        "file": "defulte.jpg"
+      },
+      "path": "contact"
+    }
+  ],
+  "notes": [
+    "Taxonomy terms are referenced by vocabulary machine name and English term name (Projects and Articles), never by TID.",
+    "The taxonomy term aliases projects and articles are intended as Views landing pages for their respective sections.",
+    "Individual project posts use the project/ prefix; article posts use the article/ prefix. These paths do not replace the section landing pages.",
+    "The unpublished personal introduction uses the profile alias and is the only post with field_block_home set to 1; the Skills post uses skills.",
+    "Image filenames must exist in the theme default-content image directory before import.",
+    "The checkbox fields use 0 and 1; confirm their actual field storage/widget definitions before importing.",
+    "The importer should create each item only once and must not recreate deleted items or overwrite later user edits.",
+    "Before saving an alias, the importer should check whether it is already in use and leave existing aliases untouched."
+  ]
+}

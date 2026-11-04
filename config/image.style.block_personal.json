@@ -1,0 +1,15 @@
+{
+    "_config_name": "image.style.block_personal",
+    "label": "Profile Image",
+    "name": "block_personal",
+    "effects": [
+        {
+            "name": "image_resize",
+            "data": {
+                "width": "300",
+                "height": "300"
+            },
+            "weight": 1
+        }
+    ]
+}

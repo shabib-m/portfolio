@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Projects",
+    "description": "Projects showcasing web development, software, and portfolio work.",
+    "weight": 0,
+    "path": "projects"
+  },
+  {
+    "name": "Articles",
+    "description": "Articles, technical insights, and web development tutorials.",
+    "weight": 2,
+    "path": "articles"
+  }
+]

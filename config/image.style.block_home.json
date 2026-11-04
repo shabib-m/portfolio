@@ -1,0 +1,15 @@
+{
+    "_config_name": "image.style.block_home",
+    "label": "Homepage Card",
+    "name": "block_home",
+    "effects": [
+        {
+            "name": "image_resize",
+            "data": {
+                "width": "400",
+                "height": "300"
+            },
+            "weight": "1"
+        }
+    ]
+}

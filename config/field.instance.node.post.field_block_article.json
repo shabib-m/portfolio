@@ -1,0 +1,42 @@
+{
+    "_config_name": "field.instance.node.post.field_block_article",
+    "field_name": "field_block_article",
+    "entity_type": "node",
+    "bundle": "post",
+	"label": "Featured Articles",
+	"widget": {
+	"weight": "4",
+	"type": "options_onoff",
+	"module": "options",
+	"active": 1,
+	"settings": {
+		  "display_label": 0
+		}
+	 },
+	"description": "Display this article in the articles block on the homepage.",
+    "required": 0,
+    "deleted": 0,
+    "default_value": [
+        {
+            "value": 0
+        }
+    ],
+    "default_value_function": null,
+    "settings": {
+        "user_register_form": false
+    },
+    "display": {
+        "default": {
+            "label": "hidden",
+            "type": "hidden",
+            "weight": "6",
+            "settings": []
+        },
+        "teaser": {
+            "label": "hidden",
+            "type": "hidden",
+            "weight": "0",
+            "settings": []
+        }
+    }
+}

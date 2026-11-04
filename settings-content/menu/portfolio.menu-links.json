@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Projects",
+    "path": "projects",
+    "weight": 0
+  },
+  {
+    "title": "Skills",
+    "path": "skills",
+    "weight": 1
+  },
+  {
+    "title": "Articles",
+    "path": "articles",
+    "weight": 2
+  }
+]

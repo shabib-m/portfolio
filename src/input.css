@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* الوضع الافتراضي للزائر (الشاشة العادية) */
+header.fixed {
+  top: 1rem; /* top-6 */
+  transition: top 0.3s ease;
+}
+
+/* عندما يكون المستخدم مسجلاً الدخول (صاحب الموقع مع شريط الأدمن) */
+body.logged-in header.fixed {
+  top: 2.5rem !important; /* مسافة كافية لكي يستقر الشريط أسفل شريط الأدمن تماماً بدون أي تداخل */
+}
