@@ -146,7 +146,7 @@
             "click_sort_column": "fid",
             "type": "image",
             "settings": {
-              "image_style": "medium",
+              "image_style": "block_personal",
               "image_link": "",
               "image_float": "",
               "image_load": "auto"
